@@ -24,7 +24,7 @@ RUN curl https://sh.rustup.rs -sSf | \
 
 ENV PATH=/root/.cargo/bin:$PATH
 ENV USER root
-RUN npm install -g neon-cli@0.1.7
+RUN npm install -g neon-cli
 WORKDIR /source
 
 CMD ["bash"]
